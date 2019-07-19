@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/fruts"
+        android:title="item_fruit"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/coconut"
+                android:icon="@drawable/coco"
+                android:title="item_coconut"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/strawberry"
+                android:icon="@drawable/fresa"
+                android:title="item_strawberry"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/pineapple"
+                android:icon="@drawable/pina"
+                android:title="item_pineapple"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/grapes"
+                android:icon="@drawable/fruts"
+                android:title="item_grapes"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

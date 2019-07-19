@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FRUITS</string>
+    <string name="CANTIDAD">La Cantidad Maxima es de 10</string>
+</resources>
